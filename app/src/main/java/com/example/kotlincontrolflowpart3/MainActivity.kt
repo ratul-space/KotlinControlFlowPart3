@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         for (i in 1..7) {
             if (i == 3) {
-                break
+                continue
             }
             Log.d(TAG, "i =" + i)
 
