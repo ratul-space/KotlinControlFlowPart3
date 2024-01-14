@@ -12,11 +12,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        for (i in 1..7) {
-            if (i == 3) {
-                continue
-            }
-            Log.d(TAG, "i =" + i)
+        for (i in 1..5) {
+            for (j in 1..4)
+                Log.d(TAG, "i =" + i + "j =" + j)
 
         }
 
