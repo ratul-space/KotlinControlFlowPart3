@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             for (j in 1..4) {
 
                 if (i == 2 && j == 2) {
-                    continue
+                    continue@outerLoop
                 }
                 Log.d(TAG, "i =" + i + "j =" + j)
 
