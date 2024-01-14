@@ -25,8 +25,9 @@ class MainActivity : AppCompatActivity() {
         var i = 1
         while (i < 6) {
             if (i % 2 == 0) {
-                continue
                 i++
+                continue
+
             }
             Log.d(TAG, "onCreate: i = " + i)
             i++
