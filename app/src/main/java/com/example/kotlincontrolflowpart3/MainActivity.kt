@@ -12,10 +12,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        for (i in 1..5) {
-            for (j in 1..4)
+        for (i in 1..3) {
+            for (j in 1..4) {
+
+                if (i == 2 && j == 2) {
+                    break
+                }
                 Log.d(TAG, "i =" + i + "j =" + j)
 
+            }
         }
 
 
