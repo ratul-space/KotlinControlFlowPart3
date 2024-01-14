@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
                 if (i == 2 && j == 2) {
                     continue@outerLoop
                 }
-                Log.d(TAG, "i =" + i + "j =" + j)
+                Log.d(TAG, "i = " + i + " j = " + j)
 
             }
         }
